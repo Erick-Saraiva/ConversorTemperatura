@@ -16,5 +16,9 @@ package application
 
         */
 
-        println("Hello")
+        val datas = Datas()
+
+        println(datas.transformarRealEmDolar(10.0))
+        println(datas.transformarRealEmEuro(10.0))
+
     }
